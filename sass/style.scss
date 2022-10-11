@@ -1,3 +1,6 @@
+:root{
+	--color: #d19ceee6;
+}
 $font-primary: 'Space Mono', Arial, serif;
 $font-secondary: 'Kaushan Script', cursive;
 
@@ -8,7 +11,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #FF9000 !default;
+$brand-primary: --color !default;
 
 $brand-white: #fff;
 $brand-black: #000;
